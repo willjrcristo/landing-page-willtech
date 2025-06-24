@@ -1,0 +1,203 @@
+/* style.css */
+
+/* --- Configurações Globais e Variáveis --- */
+:root {
+    --primary-color: #00f0ff; /* Ciano neon */
+    --secondary-color: #f000ff; /* Magenta neon */
+    --dark-bg: #0c0c1e; /* Fundo azul-escuro/roxo */
+    --light-text: #e0e0e0;
+    --dark-text: #1a1a1a;
+    --font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+    font-family: var(--font-family);
+}
+
+/* --- Animações --- */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse-glow {
+    0% {
+        box-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--primary-color);
+    }
+    50% {
+        box-shadow: 0 0 20px var(--primary-color), 0 0 30px var(--primary-color);
+    }
+    100% {
+        box-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--primary-color);
+    }
+}
+
+@keyframes title-flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      text-shadow:
+        0 0 5px var(--primary-color),
+        0 0 10px var(--primary-color),
+        0 0 20px var(--primary-color),
+        0 0 40px var(--secondary-color),
+        0 0 80px var(--secondary-color);
+    }
+    20%, 24%, 55% {        
+      text-shadow: none;
+    }
+}
+
+
+/* --- Barra de Navegação --- */
+.navbar {
+    background-color: rgba(12, 12, 30, 0.8); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--primary-color) !important;
+}
+
+.nav-link {
+    color: var(--light-text) !important;
+    margin: 0 10px;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--primary-color) !important;
+    text-shadow: 0 0 8px var(--primary-color);
+}
+
+/* --- Seção Hero --- */
+.hero-section {
+    background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, var(--dark-bg), rgba(12, 12, 30, 0.5));
+}
+
+.animated-hero-title {
+    font-weight: 700;
+    animation: title-flicker 5s infinite linear;
+}
+
+
+/* --- Botões --- */
+.btn-primary {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+    color: var(--dark-bg);
+}
+
+.btn-glow {
+    animation: pulse-glow 3s infinite ease-in-out;
+}
+
+/* --- Títulos de Seção --- */
+.section-title {
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+/* --- Cards de Serviço --- */
+.card {
+    background-color: rgba(26, 26, 50, 0.7);
+    border: 1px solid var(--primary-color);
+    border-radius: 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: fadeInUp 0.5s ease-out forwards;
+    opacity: 0; /* Começa invisível para animação */
+}
+
+/* Adiciona um delay para cada card entrar em sequência */
+.col-md-6:nth-child(2) .card, .col-lg-3:nth-child(2) .card { animation-delay: 0.2s; }
+.col-md-6:nth-child(3) .card, .col-lg-3:nth-child(3) .card { animation-delay: 0.4s; }
+.col-md-6:nth-child(4) .card, .col-lg-3:nth-child(4) .card { animation-delay: 0.6s; }
+
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 240, 255, 0.2);
+}
+
+.card-title {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+/* --- Seção Sobre --- */
+#sobre {
+    background-color: var(--dark-bg);
+}
+
+.rounded-img {
+    border: 3px solid var(--primary-color);
+    padding: 5px;
+    box-shadow: 0 0 15px var(--primary-color);
+}
+
+/* --- Seção de Contato --- */
+#contato {
+    background: linear-gradient(rgba(12, 12, 30, 0.8), rgba(12, 12, 30, 0.8)), url('https://images.unsplash.com/photo-1544256718-3b62ff584963?q=80&w=1887&auto=format&fit=crop') no-repeat center center;
+    background-size: cover;
+}
+
+.form-control {
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid var(--primary-color);
+    border-radius: 0;
+    color: var(--light-text);
+    padding: 1rem;
+}
+
+.form-control::placeholder {
+    color: rgba(224, 224, 224, 0.6);
+}
+
+.form-control:focus {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 10px var(--secondary-color);
+}
+
+
+/* --- Rodapé --- */
+footer {
+    background-color: #000;
+    border-top: 1px solid rgba(0, 240, 255, 0.2);
+}
