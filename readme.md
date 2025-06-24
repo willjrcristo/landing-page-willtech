@@ -21,7 +21,7 @@ Esta é uma landing page com tema cyberpunk para a "Will Tech", uma empresa de c
 
 ![Sobre a Will Tech](https://github.com/willjrcristo/landing-page-willtech/blob/73e51b3f1cbcf1db5d6d7fd9e672a4cc65f31590/prints/print8.png?raw=true)
 
-![Fale Conosco](https://1drv.ms/i/c/59ad2dbab6aef847/IQSDHmDBsSgKQqXE6bVVOiDkAY-JbzNYqnQ50YV3ugaeM1Y?width=1024)
+![Fale Conosco](https://github.com/willjrcristo/landing-page-willtech/blob/de4b7df88b1658fd59e0a3712f771834cb1159de/prints/print9.png?raw=true)
 
 
 ## Tecnologias Utilizadas
