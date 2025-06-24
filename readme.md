@@ -43,7 +43,7 @@ Para visualizar esta página localmente, você precisará de um servidor web sim
 
 1.  **Clone o repositório** (ou simplesmente baixe os arquivos `index.html` e `style.css` para uma pasta no seu computador).
     ```bash
-    git clone [https://github.com/seu-usuario/will-tech-landing-page.git](https://github.com/seu-usuario/will-tech-landing-page.git)
+    git clone https://github.com/seu-usuario/will-tech-landing-page.git
     ```
 
 2.  **Navegue até a pasta do projeto** pelo seu terminal.
