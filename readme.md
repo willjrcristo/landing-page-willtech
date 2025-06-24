@@ -5,21 +5,21 @@ Esta é uma landing page com tema cyberpunk para a "Will Tech", uma empresa de c
 ## Visualização
 
 ### Desktop
-![Titulo](https://1drv.ms/i/c/59ad2dbab6aef847/IQT-btegJAF1SYk0L5Hge9UlAaF0hvUxNZTeteON6vlfwYg?width=1024)
+![Titulo](https://github.com/willjrcristo/landing-page-willtech/blob/73e51b3f1cbcf1db5d6d7fd9e672a4cc65f31590/prints/print1.png?raw=true)
 
-![Nossos Serviços](https://1drv.ms/i/c/59ad2dbab6aef847/IQS4HGzTRm2EQLc4hdZhOnboAYQQRPkXxkxvhhVYIoyhzFk?width=1024)
+![Nossos Serviços](https://github.com/willjrcristo/landing-page-willtech/blob/73e51b3f1cbcf1db5d6d7fd9e672a4cc65f31590/prints/print2.jpg?raw=true)
 
 
-![Sobre a Will Tech](https://1drv.ms/i/c/59ad2dbab6aef847/IQT3A8WGhEBzRLb15WMf_MYFAUkEmQGP3EXYm3EnUjP9A_8?width=1024)
+![Sobre a Will Tech](https://github.com/willjrcristo/landing-page-willtech/blob/73e51b3f1cbcf1db5d6d7fd9e672a4cc65f31590/prints/print3.png?raw=true)
 
-![Fale Conosco](https://1drv.ms/i/c/59ad2dbab6aef847/IQT77nd6GKB2QIJER6XlHsduAeYwQFUt4bdKJ7_01UjnTws?width=1024)
+![Fale Conosco](https://github.com/willjrcristo/landing-page-willtech/blob/73e51b3f1cbcf1db5d6d7fd9e672a4cc65f31590/prints/print4.png?raw=true)
 
 ### Mobile
-![Menu Dropdown](https://1drv.ms/i/c/59ad2dbab6aef847/IQRrEAKUfvw1Ro36Y5AIxfC-AeVHtOLQsEgdOk0roWCH4_I?width=1024)
+![Menu Dropdown](https://github.com/willjrcristo/landing-page-willtech/blob/73e51b3f1cbcf1db5d6d7fd9e672a4cc65f31590/prints/print6.png?raw=true)
 
-![Nossos Servicos](https://1drv.ms/i/c/59ad2dbab6aef847/IQRK0Sn0fcozRa63Tx0YpTnVAcUcPvOM8objKyOLgKg6LpQ?width=1024)
+![Nossos Servicos](https://github.com/willjrcristo/landing-page-willtech/blob/73e51b3f1cbcf1db5d6d7fd9e672a4cc65f31590/prints/print7.png?raw=true)
 
-![Sobre a Will Tech](https://1drv.ms/i/c/59ad2dbab6aef847/IQRPrI-drEVnRZv0bP9jvWouAYxAgjJqvnEnxLJgzoijoxc?width=1024)
+![Sobre a Will Tech](https://github.com/willjrcristo/landing-page-willtech/blob/73e51b3f1cbcf1db5d6d7fd9e672a4cc65f31590/prints/print8.png?raw=true)
 
 ![Fale Conosco](https://1drv.ms/i/c/59ad2dbab6aef847/IQSDHmDBsSgKQqXE6bVVOiDkAY-JbzNYqnQ50YV3ugaeM1Y?width=1024)
 
